@@ -1,0 +1,29 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    background-color: var(--clr-light);
+    border-radius: 6px;
+    gap: 0.5rem;
+    /* border: 1px solid red; */
+}
+
+.footer p {
+    font-size: var(--size-base);
+    color: var(--clr-dark);
+}
+
+.footer hr {
+    width: 100px;
+}
+
+.footer__icon {
+    display: block;
+    color: var(--clr-dark);
+    width: var(--size-4xl);
+    height: var(--size-4xl);
+}

@@ -1,0 +1,41 @@
+.sign-up__background {
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sign-up__wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 5rem 2rem 5rem;
+    gap: 1rem;
+    border-radius: 6px;
+    background: linear-gradient(#033045, #43041a);
+    /* border: 1px solid red; */
+}
+
+.sign-up__title {
+    text-align: center;
+    color: var(--clr-light);
+    font-size: var(--size-4xl);
+}
+
+.sign-up__btn {
+    font-size: var(--size-lg);
+    text-align: center;
+}
+
+.sign-up__input {
+    width: 15rem;
+}
+
+.sign-up__dropdown-item {
+    font-size: var(--size-base);
+}
