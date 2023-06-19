@@ -1,5 +1,5 @@
 .sign-up__background {
-    background-image: url(background.jpg);
+    background-image: url(/public/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
